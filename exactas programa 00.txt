@@ -1,0 +1,105 @@
+exactas programa PYTHON
+
+variable = 1
+// asignas numero/valor a variable
+
+array = []
+
+array1 = []
+
+array1.append(3)
+// agregar a array
+
+//definir una funcion 
+// : despues de los parametros
+def suma(a,b,c):
+	x = a + c
+	y = c * b
+	r = x*x - y*y
+	return r
+
+// llamado a funcion asignando a variablle el resultado que 'returnea'
+
+res = suma(3,4,5)
+print(res)
+
+//cadena de caracteres: string
+nombre = 'roberto'
+
+print("mi nombre: ", nombre)
+
+len()
+
+//length de arrays
+y acceder a una variable en posicion x
+print(numeros[3])
+
+
+
+//convertir de string a entero.
+
+var = '33'
+int(var) ->  33
+
+//para numeros con coma
+
+var = '44.667'
+float(var) -> 44.667
+
+
+
+//convertir un string en un array de letras
+nombre = "marianoNogues"
+lista = list(nombre)
+lista[6] = 'a'
+entrar a ultimo valor de un array len(lista)-1
+
+//while loop en python
+
+i = 1
+while i<=10
+	print i 
+	i=i + 1
+
+//while loop con array
+
+def cambiar_lista(lis):
+    i=0				// indice
+    while i< len(lis):
+        lis[i] = lis[i] + 1
+        i = i + 1 
+    return lis
+    
+lista0 = [0,2,3,4,5,6,9]
+
+cambiar_lista(lista0)
+s
+//for loop in range(x)
+//seria para un loop fijo (o sea que no seria cumpliendo una condicion que consulta constantemente)
+
+
+// comparacion -- distinto: (!=)
+// not -> negacion
+// and -> x or y es tru da tru
+
+
+
+//ejemplo de while loop para sumar valores de una lista x
+
+def suma_lista(l):
+	suma = 0
+	i = 0
+	while i < len(l)
+		suma = suma + l[]
+		i = i+1
+
+campus.exactas.uba.ar
+2020 - verano - exactas programa 2020
+
+subir la tarea a cor.to/entregas_ep2020
+		
+
+
+
+
+
